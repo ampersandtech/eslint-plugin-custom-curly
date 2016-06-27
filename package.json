@@ -1,0 +1,26 @@
+{
+  "name": "eslint-plugin-custom-curly",
+  "version": "0.0.0",
+  "description": "custom curly rule",
+  "keywords": [
+    "eslint",
+    "eslintplugin",
+    "eslint-plugin"
+  ],
+  "author": "Conor",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "node_modules/mocha/bin/mocha tests --recursive"
+  },
+  "dependencies": {
+    "requireindex": "~1.1.0"
+  },
+  "devDependencies": {
+    "eslint": "~2.6.0",
+    "mocha": "~2.0.1"
+  },
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "license": "ISC"
+}
